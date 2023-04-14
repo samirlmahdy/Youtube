@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <style>
+
+        .container {
+            background-color: lightblue;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+
+        }
+        .left {
+            display: flex;
+            left:0;
+            flex:1;
+            align-items: center;
+        }
+        .right {
+            display: flex;
+            align-items: last baseline;
+
+        }
+        .buttons {
+            display: flex;
+            margin-right: 40px;
+
+        }
+    img{
+        width: 50px;
+        border-radius: 25px;
+        margin-right: 14px;
+        margin-left: 50px;
+        margin-top:5px;
+        margin-bottom: 3px;
+    }
+    p{
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .add{
+        margin: 0 10px;
+        background-color: rgb(54, 97, 214);
+        height: 30px;
+        width: 100px;
+        border: none;
+        border-radius:5px;
+        color: white;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .message{
+        height: 30px;
+        width: 100px;
+        border: none;
+        border-radius:5px;
+        color: black;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 14px;
+        background-color: rgb(241, 232, 232);
+    }
+    body{
+        padding-bottom: 3000px;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="profile-pic">
+            <img src="channel/channel-1.jpeg">
+        </div>
+        <p>Oliver Cat</p>
+      </div>
+    <div class="right">
+        <div class="buttons">
+        <button class="add">Add Friend</button>
+        <button class="message">Message</button>
+        
+            
+        </div>
+</div>
+  </body>
+</html>
